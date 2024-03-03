@@ -1,0 +1,300 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+  <main id="main">
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Education &amp; Certificates</h2>
+		  
+        </div>
+		<div class="col-lg-6">
+            <div class="resume-item">
+              <h4>Bachelor of Materials &amp; Metallurgical Engineering</h4>
+              <h5>1997 - 2002</h5>
+              <p><em>Amirkabir University of Technology - Tehran - Iran</em></p>
+              <p>(Tehran Polytechnic)</p>
+            </div>
+          </div>
+		  <hr>
+		  
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-University">University</li>
+              <li data-filter=".filter-Linkedin">Linkedin</li>
+              <li data-filter=".filter-Maktabkhooneh">Maktabkhooneh</li>
+			  <li data-filter=".filter-RWTUV">RWTüV</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-6 col-md-6 portfolio-item filter-University">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/bachlorfarsi.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/bachlorfarsi.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="bachelor.persian"><i class="bx bx-plus"></i></a>
+                  <!-- <a href="https://maktabkhooneh.org/certificates/MK-SYN3YS/ " ><i class="bx bx-link"></i></a> -->                </div>
+              </div>
+			  
+            </div>
+			<p> Materials and Metallurgical Engineering, Bachelor's Degree  1997 – 2002</p>
+				<p>	Amirkabir University of Technology Tehran – Iran</p>
+				<p>(Tehran Polytechnic)</p>
+				<hr>
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6 portfolio-item filter-University">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/bachlorenglish.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/bachlorenglish.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="bachelor.english"><i class="bx bx-plus"></i></a>
+                  <!-- <a href="https://maktabkhooneh.org/certificates/MK-SYN3YS/ " ><i class="bx bx-link"></i></a> -->                </div>
+              </div>
+			  
+            </div>
+			<p> English Version of Bachelor Degree</p>
+				
+				<hr>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Maktabkhooneh">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/pythonad.png' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+               
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/pythonad.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Advanced Python Programming"><i class="bx bx-plus"></i></a>
+                  <a href="https://maktabkhooneh.org/certificates/MK-R0RV7T/" target="_blank" ><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+			<p>Advanced Python Programming  2023</p>
+				<p>	Maktabkhooneh</p>
+				<hr>
+				
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6 portfolio-item filter-Maktabkhooneh">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/git.png' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+               
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/git.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Version Control with Git"><i class="bx bx-plus"></i></a>
+                  <a href="https://maktabkhooneh.org/certificates/MK-9TQRMW/" target="_blank" ><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+			<p>Version Control with Git 2023</p>
+				<p>	Maktabkhooneh</p>
+				<hr>
+				
+          </div>
+		  
+		    <div class="col-lg-4 col-md-6 portfolio-item filter-Maktabkhooneh">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/front.png' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+               
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/front.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web Development: Front-end"><i class="bx bx-plus"></i></a>
+                  <a href="https://maktabkhooneh.org/certificates/MK-MO4E4Y/" target="_blank" ><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+			<p>Web Development: Front-end 2024</p>
+				<p>	Maktabkhooneh</p>
+				<hr>
+				
+          </div>
+
+			<div class="col-lg-4 col-md-6 portfolio-item filter-Linkedin">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/powerbi.png' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+               
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/powerbi.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Power BI Essential Training"><i class="bx bx-plus"></i></a>
+                  <a href="https://www.linkedin.com/learning/certificates/a1114fc80311e4f26c5f3121666e6228f1bad7b8aa73c71826735066e481618d?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BUGd6BqumRoKSkzud9eno7Q%3D%3D" target="_blank" ><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+			<p>Power BI Essential Training 2022</p>
+				<p>	Linkedin</p>
+				<hr>
+				
+          </div>
+		  
+		     <div class="col-lg-4 col-md-6 portfolio-item filter-Maktabkhooneh">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/pythonbe.png' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+               
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/pythonbe.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Python Programming for Beginners"><i class="bx bx-plus"></i></a>
+                  <a href="https://maktabkhooneh.org/certificates/MK-SYN3YS/" target="_blank" ><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+			<p>Python Programming for Beginners 2023</p>
+				<p>	Maktabkhooneh</p>
+				<hr>
+				
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6 portfolio-item filter-Linkedin">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/sql1.png' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+               
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/sql1.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Learning SQL Programming"><i class="bx bx-plus"></i></a>
+                  <a href="https://www.linkedin.com/learning/certificates/3ef7257d1fb977268aa37aac4ee2bfc4a3bc0006971e54434a9f5d0725e646e2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BUGd6BqumRoKSkzud9eno7Q%3D%3D" target="_blank" ><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+			<p>Learning SQL Programming 2022</p>
+				<p>	Linkedin</p>
+				<hr>
+				
+          </div>
+		    <div class="col-lg-4 col-md-6 portfolio-item filter-Linkedin">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/analyze.png' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+               
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/analyze.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SQL: Data Reporting and Analysis"><i class="bx bx-plus"></i></a>
+                  <a href="https://www.linkedin.com/learning/certificates/e433bbc8370887f0b67d71366c94b877bd8009443953f7ba505b300956fd2eef?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BUGd6BqumRoKSkzud9eno7Q%3D%3D" target="_blank" ><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+			<p>SQL: Data Reporting and Analysis 2022</p>
+				<p>	Linkedin</p>
+				<hr>
+				
+          </div>
+          
+		  
+		    
+		  
+		  
+		    <div class="col-lg-4 col-md-6 portfolio-item filter-Linkedin">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/python1.png' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+               
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/python1.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Learning Python"><i class="bx bx-plus"></i></a>
+                  <a href="https://www.linkedin.com/learning/certificates/222982f06c4fbff48e6aaa0b8f272f006335683ce5cfc5bb44ed443ac25ca500?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BUGd6BqumRoKSkzud9eno7Q%3D%3D" target="_blank" ><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+			<p>Learning Python 2022</p>
+				<p>	Linkedin</p>
+				<hr>
+				
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6 portfolio-item filter-Linkedin">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/analyzedata.png' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+               
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/analyzedata.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Learning Data Analytics: 1 Foundations"><i class="bx bx-plus"></i></a>
+                  <a href="https://www.linkedin.com/learning/certificates/42a1f4fb277938e8b5716781166bb6603e0fe9293803f027956c1e866093d10b" target="_blank" ><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+			<p>Learning Data Analytics: 1 Foundations 2022</p>
+				<p>	Linkedin</p>
+				<hr>
+				
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6 portfolio-item filter-Linkedin">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/database1.png' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+               
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/database1.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Programming Foundations: Databases"><i class="bx bx-plus"></i></a>
+                  <a href="https://www.linkedin.com/learning/certificates/213187724f05fb4c608205d827198a9654da4140289fb8f998d6b011f49c62af?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BUGd6BqumRoKSkzud9eno7Q%3D%3D" target="_blank" ><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+			<p>Programming Foundations: Databases 2022</p>
+				<p>	Linkedin</p>
+				<hr>
+				
+          </div>
+		  
+		   <div class="col-lg-6 col-md-6 portfolio-item filter-RWTUV">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/rwi.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/rwi.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Internal Quality Audit: ISO9000"><i class="bx bx-plus"></i></a>
+                  <!-- <a href="https://maktabkhooneh.org/certificates/MK-SYN3YS/ " ><i class="bx bx-link"></i></a> -->                </div>
+              </div>
+			  
+            </div>
+			<p> Internal Quality Audit: ISO9000  2005</p>
+			<p>	RWTüV</p>
+				<hr>
+          </div>
+		  
+		  
+		  <div class="col-lg-4 col-md-6 portfolio-item filter-RWTUV">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/rwb.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/rwb.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Basic Structure and Documentation of Quality Management System"><i class="bx bx-plus"></i></a>
+                  <!-- <a href="https://maktabkhooneh.org/certificates/MK-SYN3YS/ " ><i class="bx bx-link"></i></a> -->                </div>
+              </div>
+			  
+            </div>Basic Structure and Documentation of Quality Management System: ISO 9000 2005</p>
+			<p>	RWTüV</p>
+				<hr>
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6 portfolio-item filter-RWTUV">
+            <div class="portfolio-wrap">
+              <img src="{% static 'img/portfolio/rws.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                
+                <div class="portfolio-links">
+                  <a href="{% static 'img/portfolio/rws.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title=" Statistical Process Control"><i class="bx bx-plus"></i></a>
+                  <!--<a href="https://maktabkhooneh.org/certificates/MK-SYN3YS/ " ><i class="bx bx-link"></i></a> -->                </div>
+              </div>
+			  
+            </div> Statistical Process Control 2005</p>
+			<p>	RWTüV</p>
+				<hr>
+          </div>
+		  
+		  
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+  </main><!-- End #main -->
+{% endblock %}

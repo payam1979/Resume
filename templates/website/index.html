@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+ 
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero"  class="d-flex align-items-center">
+    <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
+	
+      <h1>Payam Bagheri</h1>
+      <h6>I'm a Business Intelligence Developer and SQL Expert from Iran</h6>
+	  <br>
+      <a href={% url 'website:about' %} class="btn-about" style="width:180px; text-align:center;">About Me</a>
+    </div>
+	
+  </section><!-- End Hero -->
+{% endblock %}
